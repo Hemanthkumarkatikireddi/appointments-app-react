@@ -1,0 +1,243 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 100vh;
+  background: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+}
+.content-container {
+  border-radius: 10px;
+  background-color: #ffff;
+  width: 90%;
+  padding: 20px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-family: Roboto;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+  border-bottom: 2px solid #b5b7c4;
+}
+.input-box {
+  padding: 20px;
+}
+.form-data {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 2px;
+}
+.input {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+}
+.btn {
+  width: 70px;
+  padding: 10px;
+  background-color: #8b5cf6;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.image-con {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 300px) {
+  .heading {
+    font-size: 18px;
+  }
+  .content-container {
+    padding: 10px;
+  }
+  .input-container {
+    width: 90%;
+    padding: 0px;
+  }
+  .btn {
+    width: 40px;
+  }
+  .input-box {
+    width: 50%;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .heading {
+    font-size: 25px;
+  }
+  .content-container {
+    padding: 10px;
+  }
+  .input {
+    padding: 15px;
+  }
+  .input-container {
+    width: 90%;
+    padding: 0px;
+  }
+  .btn {
+    width: 50px;
+  }
+  .input-box {
+    width: 50%;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 612px) {
+  .heading {
+    font-size: 28px;
+  }
+  .content-container {
+    padding: 10px;
+  }
+  .input-container {
+    width: 90%;
+    padding: 0px;
+  }
+  .btn {
+    width: 60px;
+  }
+  .input-box {
+    width: 50%;
+  }
+  img {
+    height: 220px;
+    width: 220px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 912px) {
+  .heading {
+    font-size: 32px;
+  }
+  .content-container {
+    padding: 10px;
+  }
+  .input-container {
+    width: 90%;
+    padding: 10px;
+  }
+  .btn {
+    width: 70px;
+  }
+  .input-box {
+    width: 60%;
+  }
+  .image-con {
+    width: 40%;
+  }
+  img {
+    height: 260px;
+    width: 260px;
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .heading {
+    font-size: 18px;
+  }
+  .content-container {
+    padding: 20px;
+  }
+  .input-container {
+    width: 90%;
+    padding: 20px;
+  }
+  .btn {
+    width: 80px;
+  }
+  .input-box {
+    width: 60%;
+  }
+  .image-con {
+    width: 40%;
+  }
+  img {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+  }
+}
+/* --- */
+.appointment-container {
+  width: 90%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.appointment-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.filtered {
+  width: 80px;
+  padding: 3px 12px;
+  border: 2px solid #8b5cf6;
+  border-radius: 20px;
+  color: #8b5cf6;
+  font-weight: bold;
+  background-color: transparent;
+}
+.filter {
+  width: 80px;
+  padding: 3px 12px;
+  border: 2px solid #8b5cf6;
+  border-radius: 20px;
+  color: #ffff;
+  font-weight: bold;
+  background-color: #8b5cf6;
+}
+.appointment-heading {
+  font-family: Roboto;
+  font-size: larger;
+}
+.new-appointments {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}

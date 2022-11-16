@@ -1,0 +1,123 @@
+/* Write your CSS here */
+.appointment-box {
+  list-style: none;
+  padding: 15px;
+  margin: 10px 20px 10px 0px;
+  border: 1px solid #b5b7c4;
+  border-radius: 8px;
+  width: 26%;
+  height: 26%;
+}
+.title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  margin: 10px 0px;
+  font-size: larger;
+}
+.star-img {
+  height: 65px;
+  width: 65px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.date-box {
+  color: #b5b7c4;
+  margin-top: 10px;
+}
+@media screen and (min-width: 300px) {
+  .appointment-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .like {
+    padding: 10px;
+    width: 20%;
+  }
+  .title-box {
+    display: flex;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+  }
+  .star-img {
+    width: 10px;
+    padding: 0px;
+    height: 10px;
+  }
+  button {
+    width: 10px;
+  }
+  .date-box {
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .appointment-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-box {
+    display: flex;
+  }
+  .title {
+    font-size: 13px;
+    display: flex;
+  }
+  .star-img {
+    width: 14px;
+    padding: 0px;
+    height: 14px;
+  }
+  .date-box {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 692px) {
+  .appointment-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-box {
+    display: flex;
+  }
+  .title {
+    font-size: 15px;
+    display: flex;
+  }
+  .star-img {
+    width: 18px;
+    padding: 0px;
+    height: 18px;
+  }
+  .date-box {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .appointment-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-box {
+    display: flex;
+  }
+  .title {
+    font-size: 18px;
+    display: flex;
+  }
+  .star-img {
+    width: 20px;
+    padding: 0px;
+    height: 20px;
+  }
+  .date-box {
+    font-size: 13px;
+  }
+}
